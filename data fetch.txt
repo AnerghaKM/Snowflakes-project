@@ -1,0 +1,37 @@
+Fetching data from s3 to Airbnb
+
+table name 
+raw_hosts
+raw_listings
+raw_reviews
+
+Data flow progress
+     Raw layer   Staging layer
+raw_hosts      --> src_hosts
+raw_listings   --> src_listings
+raw_reviews    --> src_reviews
+
+listing-
+ID
+LISTING_URL
+NAME
+ROOM_TYPE
+MINIMUM_NIGHTS
+HOST_ID
+PRICE
+CREATED_AT
+UPDATED_AT
+
+reviews
+LISTING_ID
+DATE
+REVIEWER_NAME
+COMMENTS
+SENTIMENT
+
+hosts
+ID
+NAME
+IS_SUPERHOST
+CREATED_AT
+UPDATED_AT
